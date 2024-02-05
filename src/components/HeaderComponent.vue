@@ -12,19 +12,19 @@
         <MenuItems class="header-links__menuitems">
           <MenuItem v-slot="{ active }">
           <a class="header-links__menuitems-el" :class='{ "bg-blue-500": active }'
-            @click="this.$router.push('/macho-na-dosuge')">
+            @click="$router.push('/macho-na-dosuge')">
             МАЧО НА&nbsp;ДОСУГЕ
           </a>
           </MenuItem>
           <MenuItem v-slot="{ active }">
           <a class="header-links__menuitems-el" :class='{ "bg-blue-500": active }'
-            @click="this.$router.push('/pacan-k-uspehu-shel')">
+            @click="$router.push('/pacan-k-uspehu-shel')">
             ПАЦАН К&nbsp;УСПЕХУ ШЕЛ ИЛИ 12&nbsp;СОВЕТОВ,<br />КАК СТАТЬ УСПЕШНЫМ
           </a>
           </MenuItem>
           <MenuItem v-slot="{ active }">
           <a class="header-links__menuitems-el" :class='{ "bg-blue-500": active }'
-            @click="this.$router.push('/kostyanoy-yazik')">
+            @click="$router.push('/kostyanoy-yazik')">
             КОСТЯНОЙ ЯЗЫК
           </a>
           </MenuItem>
