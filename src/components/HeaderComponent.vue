@@ -76,7 +76,7 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue';
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: end;
+    align-items: flex-end;
     gap: 10px;
 
     &__item {
