@@ -76,7 +76,7 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue';
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+    align-items: end;
     gap: 10px;
 
     &__item {
@@ -89,9 +89,6 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue';
     }
 
     &__btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       padding: 20px;
       color: rgb(92, 92, 92);
       font-size: 16px;
