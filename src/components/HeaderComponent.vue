@@ -7,7 +7,7 @@
     <nav class="header-links">
       <router-link class="header-links__item" :to="{ name: 'Main' }">ГЛАВНАЯ</router-link>
       <router-link class="header-links__item" :to="{ name: 'Author' }">ОБ&nbsp;АВТОРЕ</router-link>
-      <Menu as="div" class="relative inline-block text-left header-links__item">
+      <Menu as="div" class="relative inline-block text-left">
         <MenuButton class="header-links__btn">ПРОЕКТЫ</MenuButton>
         <MenuItems class="header-links__menuitems">
           <MenuItem v-slot="{ active }">
