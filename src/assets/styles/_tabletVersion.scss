@@ -1,0 +1,108 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .center {
+    padding-left: calc(50% - 360px);
+    padding-right: calc(50% - 360px);
+    margin-top: 30px;
+  }
+
+  // для HeaderComponent
+
+  .header {
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    &-links {
+      gap: 5px;
+
+      .header-links__menuitems {
+        font-size: 16px;
+        top: 120px;
+        padding: 19px;
+        max-width: 350px;
+      }
+    }
+  }
+
+  // для MainComponent
+
+  .main {
+    margin-bottom: 10px;
+  }
+
+  // для FooterComponent
+
+  .footer {
+
+    &-left {
+
+      &__title {
+        font-size: 15px;
+      }
+
+      &__text {
+        font-size: 13px;
+      }
+    }
+  }
+
+  // для AuthorComponent
+
+  .content-center {
+    padding-left: calc(50% - 360px);
+    padding-right: calc(50% - 360px);
+  }
+
+  .content-title {
+
+    &__text-link {
+      border-bottom: solid 1px rgb(50, 50, 50);
+    }
+  }
+
+  // для MachoComponent, BoyComponent, TongueComponent
+
+  .project {
+    align-items: center;
+  }
+
+  .swiper-img {
+    max-width: 720px;
+  }
+
+
+  // для BoyComponent
+
+  .project-figure {
+    margin-bottom: 20px;
+
+    &__img {
+      max-width: 720px;
+    }
+  }
+
+// для NotFoundComponent
+
+.pagenotfound {
+
+  &-content {
+
+    &__header {
+      margin-top: 65px;
+      font-size: 179px;
+      color: #00794d;
+    }
+
+    &__text {
+      font-size: 35px;
+    }
+
+    &__button {
+
+      .button-link {
+        font-size: 20px;
+      }
+    }
+  }
+}
+}

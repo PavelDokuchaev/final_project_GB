@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(255, 254, 242);
+  font-family: 'Gilroy-Medium';
+  height: 100%;
+}
+
+a:hover {
+  color: black;
+  transition: all .3s ease-in-out;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+html {
+  height: 100%;
+}
+
+#app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@import 'tabletVersion';
+@import 'mobileVersion';

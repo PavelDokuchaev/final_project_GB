@@ -1,0 +1,229 @@
+@media (min-width: 360px) and (max-width: 767px) {
+
+  .center {
+    padding-left: calc(50% - 174px);
+    padding-right: calc(50% - 174px);
+  }
+
+  // для HeaderComponent
+
+  .header {
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 10px;
+
+    &-title {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      &__head {
+        font-size: 27px;
+        padding-right: 0;
+        border-bottom: solid 3px rgb(50, 50, 50);
+      }
+
+      &__subhead {
+        font-size: 30px;
+        padding-left: 7px;
+        padding-left: 0;
+        border-left: 0;
+      }
+    }
+
+    &-links {
+
+      &__item {
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      &__btn {
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      .header-links__menuitems {
+        font-size: 13px;
+        top: 145px;
+        padding: 8px;
+        max-width: 170px;
+      }
+    }
+  }
+
+  // для FooterComponent
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    &-left {
+      text-align: center;
+
+      &__title {
+        font-size: 15px;
+      }
+
+      &__text {
+        font-size: 13px;
+      }
+    }
+  }
+
+  // для AuthorComponent
+
+  .content-center {
+    padding-left: calc(50% - 174px);
+    padding-right: calc(50% - 174px);
+  }
+
+  .content {
+
+    &-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-head {
+          font-size: 25px;
+        }
+
+        &-desc {
+          font-size: 15px;
+        }
+
+        &-link {
+          border-bottom: solid 1px black;
+          color: black;
+        }
+      }
+    }
+  }
+
+  // для MachoComponent, BoyComponent, TongueComponent
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-head {
+      font-size: 25px;
+    }
+  }
+
+  .swiper-img {
+    max-width: 348px;
+  }
+
+  .swiper-img__h {
+    max-height: 231px;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+
+  // для BoyComponent
+
+  .project-figure {
+    margin-bottom: 40px;
+
+    &__img {
+      max-width: 348px;
+    }
+  }
+
+  // для ContactsComponent
+
+  .contacts {
+    align-items: center;
+    margin-top: 10px;
+
+    &-head {
+      font-size: 27px;
+    }
+
+    &-subhead {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    &-mail {
+      font-size: 20px;
+      font-weight: 700;
+
+      &__link {
+        color: black;
+        padding: 15px;
+
+        img {
+          height: 70px;
+        }
+      }
+    }
+
+    &-text {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &-links {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+
+      &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-head {
+          color: black;
+          font-size: 17px;
+          font-weight: 700;
+        }
+
+        &-link {
+          padding: 10px;
+
+          svg path {
+            fill: black;
+          }
+        }
+      }
+    }
+  }
+
+  // для NotFoundComponent
+
+  .pagenotfound {
+
+    &-content {
+
+      &__header {
+        margin-top: 65px;
+        font-size: 149px;
+        color: #00794d;
+      }
+
+      &__text {
+        font-size: 35px;
+      }
+
+      &__button {
+
+        .button-link {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
