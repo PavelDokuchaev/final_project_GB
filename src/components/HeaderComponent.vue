@@ -7,7 +7,7 @@
     <nav class="header-links">
       <router-link class="header-links__item" :to="{ name: 'Main' }">ГЛАВНАЯ</router-link>
       <router-link class="header-links__item" :to="{ name: 'Author' }">ОБ&nbsp;АВТОРЕ</router-link>
-      <Menu as="div" class="relative inline-block text-left">
+      <Menu as="div" class="relative inline-block text-left header-links__item">
         <MenuButton class="header-links__btn">ПРОЕКТЫ</MenuButton>
         <MenuItems class="header-links__menuitems">
           <MenuItem v-slot="{ active }">
@@ -76,7 +76,7 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue';
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: baseline;
     gap: 10px;
 
     &__item {
@@ -89,6 +89,8 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue';
     }
 
     &__btn {
+      display: flex;
+      align-items: center;
       padding: 20px;
       color: rgb(92, 92, 92);
       font-size: 16px;
