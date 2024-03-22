@@ -26,7 +26,7 @@ export default {
   background-image: url("../assets/img/main1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 495px;
+  min-height: 455px;
   background-size: cover;
   flex: 1 1 auto;
   margin-bottom: 30px;
